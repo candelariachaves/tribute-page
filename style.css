@@ -1,0 +1,57 @@
+body, h1{
+  margin: 0;
+  padding: 0;
+}
+
+#cover {
+  background: linear-gradient(90deg, rgba(2,0,28,1) 0%, rgba(9,9,121,1) 50%, rgba(4,115,191,1) 84%, rgba(0,212,255,1) 100%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 30vw;
+  margin: auto;
+}
+
+h1, h2{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 60px;
+  font-weight: 200;
+  color: white
+}
+
+#tribute-info, #read-more, footer {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5em;
+}
+
+#tribute-info, #read-more{
+  text-align: justify;
+  max-width: 1200px;
+  padding: 2vh 5vw;
+}
+
+#read-more:hover {
+  background-color: rgba(182, 174, 174, 0.521);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em ;
+}
+
+#heart {
+  width: 20px;
+}
+
+footer > a:visited, footer > a:link{
+  color: blue
+}
+footer > a:hover {
+  color: rgb(108, 76, 184);
+}
